@@ -1,0 +1,14 @@
+*.py[co]
+*.sw[po]
+.coverage
+*.orig
+.noseids
+*~
+#*
+.#*
+*.egg-info
+.tox/
+.cache/
+
+# External files
+.DS_Store
