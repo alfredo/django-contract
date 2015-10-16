@@ -12,6 +12,10 @@ Installation
 
 Install the package.
 
+Add a `RAML_FILE` setting in the settings file with the path to the documentation. E.g::
+
+    RAML_FILE = os.path.join(BASE_DIR, 'api.raml')
+
 
 Add the stub path for the `urls.py` file::
 
