@@ -36,7 +36,7 @@ setup(
         'https://github.com/an2deg/pyraml-parser/archive/master.zip#egg=pyraml-parser-0.1.5',
     ],
     install_requires=[
+        'pyraml-parser>=0.1.5',
         'Django>=1.7',
-        # 'pyraml-parser>=0.1.3',
     ],
 )
