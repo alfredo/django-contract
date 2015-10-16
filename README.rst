@@ -18,3 +18,10 @@ Add the stub path for the `urls.py` file::
     urlpatterns = [
         url('^/v1/', include('django_contract.urls', namespace='docs_v1')),
     ]
+
+
+TODO
+----
+- Generate forms to handle defined payloads.
+- Validate fields using schema definition.
+- Upload package to pypi.
